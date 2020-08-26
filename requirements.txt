@@ -1,0 +1,12 @@
+numpy==1.16.0
+pandas==0.24.0
+tensorflow-gpu==1.13.1
+opencv-python==4.2.0.34
+scikit-image==0.16.2
+pyyaml==5.3
+shapely==1.7.0
+imutils==0.5.3
+numba==0.48.0
+tqdm==4.42.1
+scikit-learn==0.22.1
+xlrd==1.2.0
