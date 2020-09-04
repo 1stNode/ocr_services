@@ -1,8 +1,10 @@
 # ocr_services
-手写文字OCR识别模型。本工程包含三个功能：
+手写文字OCR识别模型,均是自主训练开发的模型，目前以下三个功能进行开源：
 - 通用场景下手写文字的识别
 - 银行支票OCR识别
 - 银行进账单OCR识别
+  
+其它票据（营业执照、电子承兑汇票、发票、医疗票据等等）、pdf、表格等功能会在后续逐步开放。
 
 ## 代码结构
 - common: 通用的一些函数；
@@ -17,9 +19,9 @@
   <div align="center">
     <img src="test_datas/0_0.jpg" height="60%" width="60%" >
   </div>
-基于深度学习模型crnn+attention训练的手写文字的识别，可以对切割好的单行文字尽心文字识别，方便进行文字的录入。
+基于深度学习模型，自主训练开发的手写文字的识别，可以对切割好的单行文字尽心文字识别，方便进行文字的录入。
 
-1. 银行支票OCR识别
+2. 银行支票OCR识别
   <div align="center">
     <img src="test_datas/001.jpg" height="60%" width="60%" >
   </div>
@@ -61,7 +63,7 @@
     }
     ```
 
-1. 银行进账单OCR识别
+3. 银行进账单OCR识别
   <div align="center">
     <img src="test_datas/002.jpg" height="60%" width="60%" >
   </div>
@@ -115,6 +117,7 @@
     }
     ```
 ## 使用方法
+- 使用环境： python3.7
 - 安装依赖
   安装requirements.txt中的依赖包。
 - demo使用
@@ -125,4 +128,5 @@ main.py的main函数中已经指定了test_datas目录下的图片，如果要�
 
 
 ## 问题
-如果有疑问欢迎与我联系（lubo@nodeinit.com）
+如果有疑问欢迎与我联系（lubo@nodeinit.com），
+如有业务需要，也欢迎与我联系。
